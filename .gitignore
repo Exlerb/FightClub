@@ -1,2 +1,33 @@
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.app
 
+# Executable
+FightClub
+fightclub
+FightClub.exe
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+
+# Documentation (EXCLUDE these)
+*.pdf
+presentation.md
+'Fight Club.pdf'
+Fight\ Club.pdf
+
+# Backup files
+*.bak
+*.backup
+
+# Object files in src
+src/*.o
+src/*.exe
 
