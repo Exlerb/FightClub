@@ -1,6 +1,6 @@
 #include "Ability.h"
-
-const std::vector<Ability>& getAbilityPool() {
+vector<Ability>
+const std::& getAbilityPool() {
     static const std::vector<Ability> pool = {
         { "Fireball",      40,  0,  "Hurls a ball of fire  — 40 dmg" },
         { "Slash",         25,  0,  "Quick sword strike    — 25 dmg" },

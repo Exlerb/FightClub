@@ -34,6 +34,6 @@ void Battle::run(ICharacter& c1, ICharacter& c2, IStats& stats) {
     ICharacter* winner = c1.isAlive() ? &c1 : &c2;
     ICharacter* loser  = c1.isAlive() ? &c2 : &c1;
 
-    std::cout << "\n★  " << winner->getName() << " wins the battle!  ★\n";
+    std::cout << "\n  " << winner->getName() << " wins the battle!  \n";
     stats.recordResult(winner->getName(), loser->getName());
 }
